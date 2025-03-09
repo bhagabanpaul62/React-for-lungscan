@@ -24,7 +24,7 @@ export const UploadSection = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3001/predict",
+        "https://express-api-lungscan.onrender.com/predict",
         formData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );
