@@ -1,4 +1,4 @@
-import { Header } from "./component/home/header";
+import { Header } from "./component/home/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { UploadSection } from "./component/home/UploadSection";
